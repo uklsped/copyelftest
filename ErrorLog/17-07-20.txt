@@ -1,0 +1,378 @@
+Time: 17/07/2020 10:34:25 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at AcceptLinac.AcceptOK_click(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\AcceptLinac.ascx.vb:line 186
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:34:29 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:34:34 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:35:11 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:35:27 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:35:33 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:35:43 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:36:10 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:36:12 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:36:15 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:36:22 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:36:46 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:39:03 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 10:46:34 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:01:46 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:01:49 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:01:54 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:04:11 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.ListParameters(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2958
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 220
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:10:50 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.GetLastTime(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2822
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 254
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:10:56 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:15:21 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Integer' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   at DavesCode.Reuse.GetLastTime(String linac, Int32 index) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2822
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 254
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:15:26 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+
+Time: 17/07/2020 11:15:28 AM
+-----------------------------------------------------------
+Message: Conversion from string "" to type 'Double' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectEqual(Object Left, Object Right, Boolean TextCompare)
+   at WriteDatauc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 39
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.InvalidCastException
+-----------------------------------------------------------
+

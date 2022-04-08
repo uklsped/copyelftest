@@ -1,0 +1,284 @@
+Time: 07/01/2021 02:22:57 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.Reflection.RuntimeAssembly.GetRawBytes(RuntimeAssembly assembly, ObjectHandleOnStack retRawBytes)
+   at System.Reflection.RuntimeAssembly.GetRawBytes()
+   at System.Security.Policy.Hash.GetRawData()
+   at System.Security.Policy.Hash.GenerateHash(Type hashType)
+   at System.Security.Policy.Hash.get_SHA1()
+   at System.Web.Handlers.ScriptResourceHandler.GetAssemblyInfoInternal(Assembly assembly)
+   at System.Web.Handlers.ScriptResourceHandler.GetAssemblyInfo(Assembly assembly)
+   at System.Web.Handlers.ScriptResourceHandler.RuntimeScriptResourceHandler.GetScriptResourceUrlImpl(List`1 assemblyResourceLists, Boolean zip)
+   at System.Web.Handlers.ScriptResourceHandler.RuntimeScriptResourceHandler.System.Web.Handlers.IScriptResourceHandler.GetScriptResourceUrl(List`1 assemblyResourceLists, Boolean zip)
+   at System.Web.Handlers.ScriptResourceHandler.RuntimeScriptResourceHandler.System.Web.Handlers.IScriptResourceHandler.GetScriptResourceUrl(Assembly assembly, String resourceName, CultureInfo culture, Boolean zip)
+   at System.Web.UI.ScriptReference.GetUrlFromName(ScriptManager scriptManager, IControl scriptManagerControl, Boolean zip)
+   at System.Web.UI.ScriptReference.GetUrlInternal(ScriptManager scriptManager, Boolean zip)
+   at System.Web.UI.ScriptReference.GetUrl(ScriptManager scriptManager, Boolean zip)
+   at AjaxControlToolkit.ToolkitScriptManager.ApplyAssembly(ScriptReference script, Boolean isComposite) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ToolkitScriptManager\ToolkitScriptManager.cs:line 140
+   at AjaxControlToolkit.ToolkitScriptManager.OnResolveScriptReference(ScriptReferenceEventArgs e) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ToolkitScriptManager\ToolkitScriptManager.cs:line 208
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:23:01 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.String.Concat(String str0, String str1, String str2)
+   at System.Web.UI.ClientScriptManager.RegisterClientScriptInclude(Type type, String key, String url, Boolean isResource)
+   at System.Web.UI.ScriptRegistrationManager.RegisterClientScriptInclude(Control control, Type type, String key, String url)
+   at System.Web.UI.ScriptManager.RegisterClientScriptIncludeInternal(Control control, Type type, String key, String url)
+   at System.Web.UI.ScriptManager.RegisterUniqueScripts(List`1 uniqueScripts)
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:23:21 PM
+-----------------------------------------------------------
+Message: Invalid viewstate. 
+	Client IP: 10.216.56.26
+	Port: 57809
+	Referer: http://otp-appserver1:8080/elflive/T1page.aspx?TabAction=Clicked&NextTab=3
+	Path: /elflive/T1page.aspx
+	User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Tablet PC 2.0)
+	ViewState: XrH33bGK3No9Q1C2crXgKUa9yCNfKc8Kg/LDBTrHQVodeB4QK29jwtSFG15SKGc6otEjCwmCnPnqNDIih+Ttqich2BMh90BcoEIrgGC93fQgfOSNEGvqMHxwCl6ucRdr2zDe9TyBEjm2zZBnfPyV9h9vHN/6YSTjku7Qaz8royaMAMS+rxIFf8oe72u0tqJA0Xaqcjxz5AVdmYORxyXHS0h2riJKNnNfUz3iVY0cz5w5rcJy1H198TOrUm6LPv34d2gry6CGyT1O51AvKIKpuk9SokeMwFoQ5q7xG2/n4Czk3VQ2zUqIQIez6YS96YZ/OFhBW7zQEKjKQHYx+2K2N36DD0lQ5h+jMvWuCljEkQq3TWGsLapErxf0/7LlphJPqoGSEbiFe3gRUCaGRRTX0fXDUVbNqXjVazhOd5P1+mI0Ovi3fksYhhUYi5CAgGeobasB8idHVjd4dp9HWo2Drk56k2CGErrp4I/fyYE/7mHZ13ThHdnb10s0DMKNe7ob9WNZcYO34kPqSJGBywt3Wrsqq5+/lSmH7sSOahC6R8gs9ArClWKvEqrit+wUft6B+fj+N5kJhnQ/09IihOC5J3w8E1ab6nyW1VUHMIgCl6CkQwYwIEX1QNP2J9RfjlS...
+StackTrace: 
+Source: /elflive/T1page.aspx
+Exception Type: System.Web.UI.ViewStateException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:23:58 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.Convert.ToBase64String(Byte[] inArray, Int32 offset, Int32 length, Base64FormattingOptions options)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Serialize(Object state)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter formatter, Object stateGraph)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SavePageStateToPersistenceMedium(Object state)
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:24:19 PM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:24:20 PM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:24:34 PM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:24:37 PM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:25:00 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.Convert.ToBase64String(Byte[] inArray, Int32 offset, Int32 length, Base64FormattingOptions options)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Serialize(Object state)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter formatter, Object stateGraph)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SavePageStateToPersistenceMedium(Object state)
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:27:17 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.Text.StringBuilder.ExpandByABlock(Int32 minBlockCharCount)
+   at System.Text.StringBuilder.Append(Char* value, Int32 valueCount)
+   at System.Text.StringBuilder.AppendHelper(String value)
+   at System.Text.StringBuilder.Append(String value)
+   at System.Web.UI.PageRequestManager.ParserStringWriter.ParseString(String s)
+   at System.Web.UI.PageRequestManager.ParserStringWriter.Write(String s)
+   at System.Web.UI.HtmlTextWriter.Write(String s)
+   at System.Web.UI.Page.RenderViewStateFields(HtmlTextWriter writer)
+   at System.Web.UI.Page.BeginFormRender(HtmlTextWriter writer, String formUniqueID)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.HtmlFormWrapper.System.Web.UI.IHtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.PageRequestManager.RenderPageCallback(HtmlTextWriter writer, Control pageControl)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:27:21 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.IO.MemoryStream.set_Capacity(Int32 value)
+   at System.IO.MemoryStream.EnsureCapacity(Int32 value)
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Web.Configuration.MachineKeySection.EncryptOrDecryptData(Boolean fEncrypt, Byte[] buf, Byte[] modifier, Int32 start, Int32 length, Boolean useValidationSymAlgo, Boolean useLegacyMode, IVType ivType)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Serialize(Object state)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter formatter, Object stateGraph)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SavePageStateToPersistenceMedium(Object state)
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:27:24 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.IO.MemoryStream.set_Capacity(Int32 value)
+   at System.IO.MemoryStream.EnsureCapacity(Int32 value)
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Web.Configuration.MachineKeySection.EncryptOrDecryptData(Boolean fEncrypt, Byte[] buf, Byte[] modifier, Int32 start, Int32 length, Boolean useValidationSymAlgo, Boolean useLegacyMode, IVType ivType)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Serialize(Object state)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter formatter, Object stateGraph)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SavePageStateToPersistenceMedium(Object state)
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 02:27:32 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.IO.MemoryStream.set_Capacity(Int32 value)
+   at System.IO.MemoryStream.EnsureCapacity(Int32 value)
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Web.Configuration.MachineKeySection.EncryptOrDecryptData(Boolean fEncrypt, Byte[] buf, Byte[] modifier, Int32 start, Int32 length, Boolean useValidationSymAlgo, Boolean useLegacyMode, IVType ivType)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Serialize(Object state)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter formatter, Object stateGraph)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SavePageStateToPersistenceMedium(Object state)
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E1page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+
+Time: 07/01/2021 06:17:59 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at ClinicalUserControl.UserApprovedEvent(String TabSet, String Userinfo) in D:\Inetpub\wwwrootv4\elflive\ClinicalUserControl.ascx.vb:line 160
+   at WriteDatauc.AcceptOK_click(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 135
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/B1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 07/01/2021 06:23:54 PM
+-----------------------------------------------------------
+Message: Exception of type 'System.OutOfMemoryException' was thrown.
+StackTrace:    at System.Collections.Specialized.HybridDictionary.Add(Object key, Object value)
+   at System.Web.UI.StateBag.Add(String key, Object value)
+   at System.Web.UI.WebControls.TableCell.set_Text(String value)
+   at System.Web.UI.WebControls.TemplateField.InitializeCell(DataControlFieldCell cell, DataControlCellType cellType, DataControlRowState rowState, Int32 rowIndex)
+   at System.Web.UI.WebControls.GridView.InitializeRow(GridViewRow row, DataControlField[] fields)
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.WebControls.CompositeDataBoundControl.get_Controls()
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Control.LoadChildViewStateByIndex(ArrayList childState)
+   at System.Web.UI.Control.LoadViewStateRecursive(Object savedState)
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/B2Page.aspx
+Exception Type: System.OutOfMemoryException
+-----------------------------------------------------------
+

@@ -1,0 +1,27 @@
+Time: 25/05/2021 08:35:35 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 25/05/2021 02:55:14 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at AjaxControlToolkit.ToolkitScriptManager.GetWebResourceAttributes(Assembly assembly) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ToolkitScriptManager\ToolkitScriptManager.cs:line 63
+   at AjaxControlToolkit.ToolkitScriptManager.IsScriptCombinable(ScriptEntry scriptEntry) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ToolkitScriptManager\ToolkitScriptManager.cs:line 520
+   at AjaxControlToolkit.ToolkitScriptManager.OnResolveScriptReference(ScriptReferenceEventArgs e) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ToolkitScriptManager\ToolkitScriptManager.cs:line 219
+   at System.Web.UI.ScriptManager.RegisterScripts()
+   at System.Web.UI.ScriptManager.OnPagePreRenderComplete(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnPreRenderComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/B1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

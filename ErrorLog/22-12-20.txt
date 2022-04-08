@@ -1,0 +1,12 @@
+Time: 22/12/2020 09:50:10 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 456
+   at T2page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

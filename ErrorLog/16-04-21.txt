@@ -1,0 +1,9 @@
+Time: 16/04/2021 07:08:29 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at B2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\B2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+

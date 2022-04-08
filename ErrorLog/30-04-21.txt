@@ -1,0 +1,182 @@
+Time: 30/04/2021 07:43:57 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 07:43:57 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 07:43:57 AM
+-----------------------------------------------------------
+Message: The process cannot access the file 'D:\Inetpub\wwwrootv4\elflive\ErrorLog\30-04-21.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.Create(String path)
+   at DavesCode.NewFaultHandling.LogError(Exception ex) in D:\Inetpub\wwwrootv4\elflive\App_Code\NewFaultHandling.vb:line 842
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 567
+   at T2page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.IO.IOException
+-----------------------------------------------------------
+
+Time: 30/04/2021 07:48:11 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 07:48:12 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 07:48:13 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:04:50 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:04:51 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:05:20 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:05:21 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at DavesCode.Reuse.SetMachineState(String linacName, Boolean unlock, Boolean LoggedOn, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 335
+   at T2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T2page.aspx.vb:line 492
+Source: App_Code
+TargetSite: System.String SetMachineState(System.String, Boolean, Boolean, System.String)
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:34:39 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:34:39 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:51:07 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 30/04/2021 08:51:08 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 30/04/2021 11:13:29 AM
+-----------------------------------------------------------
+Message: The given key was not present in the dictionary.
+StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at DavesCode.Reuse.ReturnActivity(String activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 60
+   at AcceptLinacuc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\controls\AcceptLinacuc.ascx.vb:line 65
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.Collections.Generic.KeyNotFoundException
+-----------------------------------------------------------
+
+Time: 30/04/2021 05:19:37 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at ClinicalUserControl.UserApprovedEvent(String TabSet, String Userinfo) in D:\Inetpub\wwwrootv4\elflive\ClinicalUserControl.ascx.vb:line 160
+   at WriteDatauc.AcceptOK_click(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 135
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

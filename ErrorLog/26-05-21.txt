@@ -1,0 +1,147 @@
+Time: 26/05/2021 07:52:49 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 07:52:49 AM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 26/05/2021 08:10:39 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 08:10:39 AM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 26/05/2021 09:30:15 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 09:30:15 AM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 26/05/2021 02:44:17 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 02:44:18 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 04:33:51 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 04:33:51 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 04:35:52 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 04:35:53 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at T1page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 456
+   at T1page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\T1page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 26/05/2021 06:18:01 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at ClinicalUserControl.UserApprovedEvent(String TabSet, String Userinfo) in D:\Inetpub\wwwrootv4\elflive\ClinicalUserControl.ascx.vb:line 160
+   at WriteDatauc.AcceptOK_click(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 135
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/E2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

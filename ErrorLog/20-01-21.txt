@@ -1,0 +1,9 @@
+Time: 20/01/2021 07:01:05 PM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+

@@ -1,0 +1,72 @@
+Time: 05/01/2021 10:12:48 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 10:13:39 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 10:13:45 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 10:13:53 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 11:28:47 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 11:28:47 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 11:29:08 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 05/01/2021 11:29:41 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+

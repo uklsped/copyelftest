@@ -1,0 +1,36 @@
+Time: 23/11/2020 09:49:30 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 23/11/2020 09:49:41 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 23/11/2020 09:49:44 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 23/11/2020 09:50:09 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+

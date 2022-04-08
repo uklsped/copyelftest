@@ -1,0 +1,46 @@
+Time: 16/12/2021 12:23:15 PM
+-----------------------------------------------------------
+Linac: E1
+Calling Procedure: EndofDay
+Anomaly: EndofDay
+Anomaly occurred on page: https://elftest.bsuh.nhs.uk/E1page.aspx?loadup=1
+-----------------------------------------------------------
+
+Time: 16/12/2021 12:23:15 PM
+-----------------------------------------------------------
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at DavesCode.NewEngRunup.CommitRunupNew(GridView GridviewE, String LinacName, String tabby, String LogOffName, String TextBox, Boolean Valid, Boolean Fault, Boolean lock, String ConnectionString) in e:\webfarm\websites\elftest.bsuh.nhs.uk\App_Code\NewEngRunup.vb:line 281
+   at DavesCode.NewEngRunup.CommitRunup(GridView GridviewE, GridView grdviewI, String LinacName, String tabby, String LogOffName, String TextBoxc, Boolean Valid, Boolean Fault, Boolean lock, FaultParameters FaultParams) in e:\webfarm\websites\elftest.bsuh.nhs.uk\App_Code\NewEngRunup.vb:line 47
+Source: mscorlib
+TargetSite: System.Object get_Item(Int32)
+-----------------------------------------------------------
+
+Time: 16/12/2021 01:25:31 PM
+-----------------------------------------------------------
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at DavesCode.NewEngRunup.CommitRunupNew(GridView GridviewE, String LinacName, String tabby, String LogOffName, String TextBox, Boolean Valid, Boolean Fault, Boolean lock, String ConnectionString) in e:\webfarm\websites\elftest.bsuh.nhs.uk\App_Code\NewEngRunup.vb:line 281
+   at DavesCode.NewEngRunup.CommitRunup(GridView GridviewE, GridView grdviewI, String LinacName, String tabby, String LogOffName, String TextBoxc, Boolean Valid, Boolean Fault, Boolean lock, FaultParameters FaultParams) in e:\webfarm\websites\elftest.bsuh.nhs.uk\App_Code\NewEngRunup.vb:line 47
+Source: mscorlib
+TargetSite: System.Object get_Item(Int32)
+-----------------------------------------------------------
+
+Time: 16/12/2021 03:25:40 PM
+-----------------------------------------------------------
+Message: Invalid viewstate. 
+	Client IP: 10.216.10.183
+	Port: 10132
+	Referer: https://elftest.bsuh.nhs.uk/E1page.aspx?TabAction=Recovered&NextTab=1&comment=
+	Path: /E1page.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+	ViewState: OreQCDSe7tYQA2Ru3cHihOes4Dy6+mJn4vVLEkA+bkcoLW+ELxN08oARK1yHQczZQDM+zLpPpl+GUAQZ4V/0r2pY0R90fW1XucpnKnpsTUfCMEaNwvfdFYkCeThB79mzLNtFP6nPrZNksInYnt2kEIIoyUY5o7rJW44XE6dhCRq07yo6T1xyRmuOiAHOmhaaAZQXnZqqWya0JMOsVaa3Jc4qwYFqJWuS2dsqnk+d+rypocnUBUcnhW28Mi/2a/309dogWweS4eRAq9noXCf1V6FBUC1FO0/vXoUll2s0x7lwrhViXVWOJ4guLxc4rcKecW3q9BLEteYPzEbp5gZvWsthg9FfULApcwpMV+EDy7N4RvXcisozmsBEELWySQs+5yB3VOsQ0WWunTfHxbLD2s8m/znL1Xj4w3an7Llh90xqhfPhFKZ9UAYp7H7Rl7SM/4cBV3F95OISgZeRyHpcDi5EWqF1CtxpX66ayGUdFvuD0KEN0GGbHpl3l9G+5ATbR/ggIyRxoQXgnp98nlyd0N/vgFvcIh6CYHS+9Z70mDWfeyU/QW8p8Zju9rgu3Nr1Z8YUF6mUDfQT/lJU8spNZS6Eo/DxDg4hhk7W0HpW4fuwlmkwYmp2VRwafK7s/6bOH6RoYb6IVOCEOb5FEKHwOzXxs/BnbKuIt/dnfql0cXD8sqdthbPbq2oUqccDvmWODCDQD7/j1oUdlSnNe69pe0...
+StackTrace: 
+Source: /E1page.aspx
+Exception Type: System.Web.UI.ViewStateException
+-----------------------------------------------------------
+

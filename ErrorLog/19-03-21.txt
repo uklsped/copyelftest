@@ -1,0 +1,32 @@
+Time: 19/03/2021 11:28:20 AM
+-----------------------------------------------------------
+Message: 
+StackTrace: 
+Source: 
+Exception Type: 
+-----------------------------------------------------------
+
+Time: 19/03/2021 11:35:02 AM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at B2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\B2page.aspx.vb:line 456
+   at B2page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\B2page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/B2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+
+Time: 19/03/2021 04:07:32 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at B2page.LaunchTab(String TabAction, String LiveTab) in D:\Inetpub\wwwrootv4\elflive\B2page.aspx.vb:line 456
+   at B2page.Page_Load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\B2page.aspx.vb:line 286
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/B2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

@@ -1,0 +1,24 @@
+Time: 19/11/2020 09:54:04 AM
+-----------------------------------------------------------
+Message: Conversion from type 'DBNull' to type 'Boolean' is not valid.
+StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   at DavesCode.GetApplication.GetApplicationState(String linac, Int32 PreviousState) in D:\Inetpub\wwwrootv4\elflive\App_Code\GetApplication.vb:line 33
+Source: Microsoft.VisualBasic
+TargetSite: Boolean ToBoolean(System.Object)
+-----------------------------------------------------------
+
+Time: 19/11/2020 05:15:32 PM
+-----------------------------------------------------------
+Message: Object reference not set to an instance of an object.
+StackTrace:    at ClinicalUserControl.UserApprovedEvent(String TabSet, String Userinfo) in D:\Inetpub\wwwrootv4\elflive\ClinicalUserControl.ascx.vb:line 158
+   at WriteDatauc.AcceptOK_click(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\WriteDatauc.ascx.vb:line 135
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.NullReferenceException
+-----------------------------------------------------------
+

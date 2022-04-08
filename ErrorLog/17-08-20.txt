@@ -1,0 +1,44 @@
+Time: 17/08/2020 10:40:47 AM
+-----------------------------------------------------------
+Message: The given key was not present in the dictionary.
+StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at DavesCode.Reuse.ReturnActivity(String activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 44
+   at AcceptLinacuc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\controls\AcceptLinacuc.ascx.vb:line 172
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.Collections.Generic.KeyNotFoundException
+-----------------------------------------------------------
+
+Time: 17/08/2020 02:11:15 PM
+-----------------------------------------------------------
+Message: Multiple controls with the same ID 'AcceptLinac1' were found. FindControl requires that controls have unique IDs.
+StackTrace:    at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at AjaxControlToolkit.ExtenderControlBase.FindControlHelper(String id) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ExtenderBase\ExtenderControlBase.cs:line 175
+   at AjaxControlToolkit.ModalPopupExtender.ChangeVisibility(Boolean show) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ModalPopup\ModalPopupExtender.cs:line 256
+   at AjaxControlToolkit.ModalPopupExtender.OnPreRender(EventArgs e) in C:\Users\Stephen\Documents\Repos\Superexpert\AjaxControlToolkit\Server\AjaxControlToolkit\ModalPopup\ModalPopupExtender.cs:line 237
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T1page.aspx
+Exception Type: System.Web.HttpException
+-----------------------------------------------------------
+

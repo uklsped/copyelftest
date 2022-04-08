@@ -1,0 +1,89 @@
+Time: 05/11/2019 11:24:09 AM
+-----------------------------------------------------------
+Message: Could not find stored procedure 'usp_InsertLinacStatus'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DavesCode.Reuse.SetStatusNew(String loginName, String State, Int32 UserGroup, Int32 Userreason, String linacid, Int32 Activity, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2550
+   at DavesCode.NewCommitClinical.CommitClinicalNew(String LinacName, String LogOutName, Boolean Fault, String connectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\NewCommitClinical.vb:line 106
+   at DavesCode.NewCommitClinical.CommitClinical(String LinacName, String LogOffName, Boolean Fault, FaultParameters FaultParams) in D:\Inetpub\wwwrootv4\elflive\App_Code\NewCommitClinical.vb:line 11
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+-----------------------------------------------------------
+
+Time: 05/11/2019 11:27:00 AM
+-----------------------------------------------------------
+Message: Could not find stored procedure 'usp_InsertLinacStatus'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DavesCode.Reuse.SetStatusNew(String loginName, String State, Int32 UserGroup, Int32 Userreason, String linacid, Int32 Activity, String ConnectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2550
+   at DavesCode.NewWriteAux.WriteAuxTablesNew(String LinacName, String LogOffName, String comment, Int32 Radioselect, Int32 Tabused, Boolean Fault, String suspstate, String repstate, Boolean lock, String connectionString) in D:\Inetpub\wwwrootv4\elflive\App_Code\NewWriteAux.vb:line 105
+   at DavesCode.NewWriteAux.WriteAuxTables(String LinacName, String LogOffName, String comment, Int32 Radioselect, Int32 Tabused, Boolean NewFault, String suspstate, String repstate, Boolean lock, FaultParameters FaultParams) in D:\Inetpub\wwwrootv4\elflive\App_Code\NewWriteAux.vb:line 13
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+-----------------------------------------------------------
+
+Time: 05/11/2019 11:27:32 AM
+-----------------------------------------------------------
+Message: Could not find stored procedure 'usp_InsertLinacStatus'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DavesCode.Reuse.SetStatus(String loginName, String State, Int32 UserGroup, Int32 Userreason, String linacid, Int32 Activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2469
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+-----------------------------------------------------------
+
+Time: 05/11/2019 11:31:23 AM
+-----------------------------------------------------------
+Message: Could not find stored procedure 'usp_InsertLinacStatus'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DavesCode.Reuse.SetStatus(String loginName, String State, Int32 UserGroup, Int32 Userreason, String linacid, Int32 Activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2469
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+-----------------------------------------------------------
+
+Time: 05/11/2019 03:52:21 PM
+-----------------------------------------------------------
+Message: The EXECUTE permission was denied on the object 'usp_InsertLinacStatus', database 'ElfLive', schema 'dbo'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DavesCode.Reuse.SetStatus(String loginName, String State, Int32 UserGroup, Int32 Userreason, String linacid, Int32 Activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 2469
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+-----------------------------------------------------------
+

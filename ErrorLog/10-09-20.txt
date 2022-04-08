@@ -1,0 +1,42 @@
+Time: 10/09/2020 08:47:49 AM
+-----------------------------------------------------------
+Message: The given key was not present in the dictionary.
+StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at DavesCode.Reuse.ReturnActivity(String activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 44
+   at AcceptLinacuc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\controls\AcceptLinacuc.ascx.vb:line 172
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.Collections.Generic.KeyNotFoundException
+-----------------------------------------------------------
+
+Time: 10/09/2020 10:47:54 AM
+-----------------------------------------------------------
+Message: The given key was not present in the dictionary.
+StackTrace:    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at DavesCode.Reuse.ReturnActivity(String activity) in D:\Inetpub\wwwrootv4\elflive\App_Code\Reuse.vb:line 44
+   at AcceptLinacuc.Page_load(Object sender, EventArgs e) in D:\Inetpub\wwwrootv4\elflive\controls\AcceptLinacuc.ascx.vb:line 172
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Source: /elflive/T2page.aspx
+Exception Type: System.Collections.Generic.KeyNotFoundException
+-----------------------------------------------------------
+
