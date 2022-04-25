@@ -2,7 +2,6 @@
 Imports System.Data.SqlClient
 
 Namespace DavesCode
-    ///
 
     Public Class FaultParameters
         'auto-implemented properties https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/auto-implemented-properties

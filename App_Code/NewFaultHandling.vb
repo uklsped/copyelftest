@@ -7,11 +7,6 @@ Namespace DavesCode
     Public Class NewFaultHandling
         'used in DeviceRepeatfault, DeviceSave,DeviceSavePark
         'Public Shared Function InsertRepeatFault(ByVal Description As String, ByVal ReportedBy As String, ByVal DateReported As DateTime, ByVal Area As String, ByVal Energy As String, ByVal GantryAngle As String, ByVal CollimatorAngle As String, ByVal Device As String, ByVal IncidentID As Integer, ByVal PatientID As String, ByVal ConcessionNumber As String, ByVal Reportable As Boolean) As Integer
-        ''' <summary>
-        ''' 
-        ''' </summary>
-        ''' <param name="FaultP"></param>
-        ''' <returns></returns>
         Public Shared Function InsertRepeatFault(ByVal FaultP As DavesCode.FaultParameters) As Boolean
             Dim Result As Boolean = False
             Dim conn As SqlConnection
