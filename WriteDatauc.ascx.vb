@@ -1,9 +1,7 @@
 ﻿Imports AjaxControlToolkit
 Partial Class WriteDatauc
     Inherits System.Web.UI.UserControl
-    Private Action As String
-    Private actionstate As String
-    Private appstate As String
+
     Dim modalpopupextendercom As New ModalPopupExtender
     Public Event UserApproved(ByVal Tab As String, ByVal UserName As String)
     Public Property Tabby() As String
@@ -25,8 +23,7 @@ Partial Class WriteDatauc
 
     Protected Sub Page_load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
         WaitButtons("Acknowledge")
-        appstate = "LogOn" + LinacName
-        actionstate = "ActionState" + LinacName
+
         Dim logerrorbox As Label = FindControl("LoginErrordetails")
         logerrorbox.Text = Nothing
 
@@ -89,7 +86,6 @@ Partial Class WriteDatauc
         Dim strScript As String = "<script>"
         Dim textboxUser As TextBox = FindControl("txtchkUserName")
         Dim passwordUser As TextBox = FindControl("txtchkPWD")
-        Dim Activity As String = ""
         Dim modalpop As ModalPopupExtender
         Dim modalname As String = "Modalpopupextendercom" & Tabby
         modalpop = CType(FindControl(modalname), ModalPopupExtender)
@@ -125,10 +121,10 @@ Partial Class WriteDatauc
             Case "Acknowledge"
                 Dim Accept As Button = FindControl("AcceptOK")
                 Dim Cancel As Button = FindControl("btnchkcancel")
-                If Not FindControl("AcceptOK") Is Nothing Then
+                If FindControl("AcceptOK") IsNot Nothing Then
                     Accept.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Accept, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not FindControl("btnchkcancel") Is Nothing Then
+                If FindControl("btnchkcancel") IsNot Nothing Then
                     Cancel.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Cancel, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 
@@ -139,22 +135,22 @@ Partial Class WriteDatauc
                 Dim Physics As Button = FindControl("PhysicsQA")
                 Dim Atlas As Button = FindControl("ViewAtlasButton")
                 Dim FaultPanel As Button = FindControl("FaultPanelButton")
-                If Not Eng Is Nothing Then
+                If Eng IsNot Nothing Then
                     Eng.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Eng, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not LogOff Is Nothing Then
+                If LogOff IsNot Nothing Then
                     LogOff.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(LogOff, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Lock Is Nothing Then
+                If Lock IsNot Nothing Then
                     Lock.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Lock, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Physics Is Nothing Then
+                If Physics IsNot Nothing Then
                     Physics.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Physics, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Atlas Is Nothing Then
+                If Atlas IsNot Nothing Then
                     Atlas.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Atlas, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not FaultPanel Is Nothing Then
+                If FaultPanel IsNot Nothing Then
                     FaultPanel.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(FaultPanel, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 
@@ -162,13 +158,13 @@ Partial Class WriteDatauc
                 Dim clin As Button = FindControl("clinHandoverButton")
                 Dim LogOff As Button = FindControl("LogOff")
                 Dim TStart As Button = FindControl("TStart")
-                If Not clin Is Nothing Then
+                If clin IsNot Nothing Then
                     clin.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(clin, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not LogOff Is Nothing Then
+                If LogOff IsNot Nothing Then
                     LogOff.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(LogOff, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not TStart Is Nothing Then
+                If TStart IsNot Nothing Then
                     TStart.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(TStart, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 

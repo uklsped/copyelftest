@@ -3,27 +3,18 @@ Imports GlobalConstants
 Partial Class Planned_Maintenanceuc
     Inherits System.Web.UI.UserControl
 
-    Private SelectCount As Boolean
     Private Radioselect As Integer
-    Private objconToday As TodayClosedFault
-    Private Todaydefect As DefectSave
-    Private Todaydefectpark As DefectSavePark
     Private MainFaultPanel As controls_MainFaultDisplayuc
-    Dim Master As Object
     Private laststate As String
     Private lastuser As String
     Private lastusergroup As String
     Private BoxChanged As String
     Private Event AutoApproved(ByVal Tab As String, ByVal UserName As String)
     Public Event BlankGroup(ByVal BlankUser As Integer)
-    Private tabstate As String
-    Dim FaultParams As DavesCode.FaultParameters = New DavesCode.FaultParameters()
+    Dim FaultParams As New DavesCode.FaultParameters()
     Public Property LinacName() As String
     Private comment As String
     Const PM As String = "4"
-    Dim objReportFault As controls_ReportFaultPopUpuc
-    Private WithEvents objdefect As DefectSave = New DefectSave
-    Const FAULTPOPUPSELECTED As String = "faultpopupupselected"
     Const QASELECTED As String = "ModalityQApopupselected"
     Const VIEWSTATEKEY_DYNCONTROL As String = "DynamicControlSelection"
 
@@ -100,14 +91,11 @@ Partial Class Planned_Maintenanceuc
     Public Sub UserApprovedEvent(ByVal TabSet As String, ByVal Userinfo As String)
         Dim machinelabel As String = LinacName & "Page.aspx';"
         Dim username As String = Userinfo
-        Dim LinacStateID As String = ""
-
-        Dim result As Boolean = False
         'This is here to cater for when system is recovering at end of day so no tab is actually loaded.
 
         If TabSet = PM Then
 
-            If (Not HttpContext.Current.Application(BoxChanged) Is Nothing) Then
+            If HttpContext.Current.Application(BoxChanged) IsNot Nothing Then
                 comment = HttpContext.Current.Application(BoxChanged).ToString
             Else
                 comment = String.Empty
@@ -131,7 +119,7 @@ Partial Class Planned_Maintenanceuc
                 Radioselect = RadioButtonList1.SelectedItem.Value
             End If
 
-            result = NewWriteAux.WriteAuxTables(LinacName, username, comment, Radioselect, TabSet, False, False, FaultParams)
+            Dim result As Boolean = NewWriteAux.WriteAuxTables(LinacName, username, comment, Radioselect, TabSet, False, False, FaultParams)
             If result Then
                 If Action = "Confirm" Then
 
@@ -168,7 +156,6 @@ Partial Class Planned_Maintenanceuc
 
                 Else
 
-                    'Dim returnstring As String = LinacName + "page.aspx?TabAction=Recovered&NextTab=" & TabSet
                     Dim returnstring As String = LinacName + "page.aspx"
                     Response.Redirect(returnstring, False)
                 End If
@@ -367,7 +354,7 @@ Partial Class Planned_Maintenanceuc
     End Sub
 
     Private Sub ForceFocus(ByVal ctrl As Control)
-        ScriptManager.RegisterStartupScript(Me, Me.[GetType](), "FocusScript", "setTimeout(function(){$get('" + _
+        ScriptManager.RegisterStartupScript(Me, Me.[GetType](), "FocusScript", "setTimeout(function(){$get('" +
         ctrl.ClientID + "').focus();}, 100);", True)
     End Sub
     Private Sub WaitButtons(ByVal WaitType As String)
@@ -376,10 +363,10 @@ Partial Class Planned_Maintenanceuc
             Case "Acknowledge"
                 Dim Accept As Button = FindControl("AcceptOK")
                 Dim Cancel As Button = FindControl("btnchkcancel")
-                If Not FindControl("AcceptOK") Is Nothing Then
+                If FindControl("AcceptOK") IsNot Nothing Then
                     Accept.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Accept, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not FindControl("btnchkcancel") Is Nothing Then
+                If FindControl("btnchkcancel") IsNot Nothing Then
                     Cancel.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Cancel, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 
@@ -390,22 +377,22 @@ Partial Class Planned_Maintenanceuc
                 Dim Physics As Button = FindControl("PhysicsQA")
                 Dim Atlas As Button = FindControl("ViewAtlasButton")
                 Dim FaultPanel As Button = FindControl("FaultPanelButton")
-                If Not Eng Is Nothing Then
+                If Eng IsNot Nothing Then
                     Eng.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Eng, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not LogOff Is Nothing Then
+                If LogOff IsNot Nothing Then
                     LogOff.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(LogOff, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Lock Is Nothing Then
+                If Lock IsNot Nothing Then
                     Lock.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Lock, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Physics Is Nothing Then
+                If Physics IsNot Nothing Then
                     Physics.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Physics, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not Atlas Is Nothing Then
+                If Atlas IsNot Nothing Then
                     Atlas.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(Atlas, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not FaultPanel Is Nothing Then
+                If FaultPanel IsNot Nothing Then
                     FaultPanel.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(FaultPanel, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 
@@ -413,13 +400,13 @@ Partial Class Planned_Maintenanceuc
                 Dim clin As Button = FindControl("clinHandoverButton")
                 Dim LogOff As Button = FindControl("LogOff")
                 Dim TStart As Button = FindControl("TStart")
-                If Not clin Is Nothing Then
+                If clin IsNot Nothing Then
                     clin.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(clin, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not LogOff Is Nothing Then
+                If LogOff IsNot Nothing Then
                     LogOff.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(LogOff, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
-                If Not TStart Is Nothing Then
+                If TStart IsNot Nothing Then
                     TStart.Attributes.Add("onclick", Page.ClientScript.GetPostBackEventReference(TStart, "") + ";this.value='Wait...';this.disabled = true; this.style.display='block';")
                 End If
 
