@@ -29,31 +29,6 @@ Partial Class WriteDatauc
         actionstate = "ActionState" + LinacName
         Dim logerrorbox As Label = FindControl("LoginErrordetails")
         logerrorbox.Text = Nothing
-        Dim Tabb As Integer = -1
-        Dim Tabbie As String = Tabby
-        If Integer.TryParse(Tabbie, Tabb) Then
-            Tabb = Integer.Parse(Tabby)
-        End If
-
-        If Tabbie = "EndOfDay" Then
-            Tabb = 102
-        ElseIf Tabbie = "Admin" Then
-            Tabb = 0
-        ElseIf Tabbie = "Report" Then
-            Tabb = 103
-        ElseIf Tabbie = "UpdateFault" Then
-            Tabb = 104
-        ElseIf Tabbie = "Defect" Then
-            Tabb = 105
-        ElseIf Tabbie = "Major" Then
-            Tabb = 106
-        ElseIf Tabbie = "Incident" Then
-            Tabb = 107
-        ElseIf Tabbie = "recover" Then
-            Tabb = 108
-        ElseIf Tabbie = "image" Then
-            Tabb = 109
-        End If
 
         Dim MyString As String
         Dim Tabnumber As String
